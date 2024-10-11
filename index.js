@@ -3,6 +3,7 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const authRoutes = require("./routes/auth");
 const quizRoutes = require("./routes/quiz");
+const quizTrackRoutes = require("./routes/quizTrack");
 require("dotenv").config();
 
 const app = express();
@@ -15,6 +16,7 @@ connectDB();
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/quizzes", quizRoutes);
+app.use("/api/quiztrack", quizTrackRoutes);
 
 // Start server
 app.listen(process.env.PORT, () =>

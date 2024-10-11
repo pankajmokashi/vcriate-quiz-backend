@@ -6,7 +6,7 @@ const quizTrackSchema = new mongoose.Schema({
   quizzes: [
     {
       quizId: { type: mongoose.Schema.Types.ObjectId, ref: "Quiz" },
-      selectedOption: Number,
+      selectedOption: String,
     },
   ],
   score: Number,
