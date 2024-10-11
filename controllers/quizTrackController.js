@@ -41,7 +41,7 @@ exports.submitQuiz = async (req, res) => {
     quizTrack.quizzes.forEach((quiz, index) => {
       const correctAnswer = quiz.quizId.correctOption;
       const selectedAnswer = userAnswers[index].selectedOption;
-      console.log(correctAnswer, selectedAnswer);
+
       if (correctAnswer === selectedAnswer) {
         score++;
       }
