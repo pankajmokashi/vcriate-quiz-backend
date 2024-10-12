@@ -6,7 +6,7 @@ This is a basic online quiz application built using Node.js, Express.js, and Mon
 - Base Link: https://quiz-ebon-nine.vercel.app/
 - Postman Doc: https://documenter.getpostman.com/view/27254096/2sAXxS8XE1
 
-### API Endpoints Documentation
+### API Endpoints
 1. User Authentication
  - POST /api/auth/signup: Register a new user.
  - POST /api/auth/login: Log in an existing user.
