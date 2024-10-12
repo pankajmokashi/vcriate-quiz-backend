@@ -31,7 +31,7 @@ cd vcriate-quiz-backend
 npm install
 ```
 
-3. Set up MongoDB:
+3. Set up .csv file:
 - Create a .env file at the root of your project and add your MongoDB connection string there.
 ```.env
 MONGO_URI=your_mongo_uri
