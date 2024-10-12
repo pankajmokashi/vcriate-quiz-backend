@@ -23,7 +23,7 @@ This is a basic online quiz application built using Node.js, Express.js, and Mon
 1. Clone the repository:
 ```
 git clone https://github.com/pankajmokashi/vcriate-quiz-backend.git
-cd quiz-app
+cd vcriate-quiz-backend
 ```
 
 2. Install dependencies: Inside the project directory, run:
