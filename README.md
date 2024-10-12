@@ -4,20 +4,20 @@ This is a basic online quiz application built using Node.js, Express.js, and Mon
 ### Links
 - Repo Link: https://github.com/pankajmokashi/vcriate-quiz-backend.git
 - Base Link: https://quiz-ebon-nine.vercel.app/
-- Postman Doc: 
+- Postman Doc: https://documenter.getpostman.com/view/27254096/2sAXxS8XE1
 
 ### API Endpoints Documentation
 1. User Authentication
-- POST /api/auth/signup: Register a new user.
-- POST /api/auth/login: Log in an existing user.
+ - POST /api/auth/signup: Register a new user.
+ - POST /api/auth/login: Log in an existing user.
 
 2. Quiz Management
-GET /api/quizzes: Get all available quizzes.
-GET /api/quizzes/:id: Get quiz details by ID.
+ - GET /api/quizzes: Get all available quizzes.
+ - GET /api/quizzes/:id: Get quiz details by ID.
 
 3. Quiz Track (Taking a Quiz)
-POST /api/quiztrack/start: Start a new quiz track.
-POST /api/quiztrack/submit: Submit quiz answers and calculate the score.
+ - POST /api/quiztrack/start: Start a new quiz track.
+ - POST /api/quiztrack/submit: Submit quiz answers and calculate the score.
 
 ### Installation
 1. Clone the repository:
